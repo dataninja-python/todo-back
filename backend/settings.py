@@ -32,6 +32,7 @@ DEBUG = True
 #     'http://127.0.0.1:3000',
 # ]
 
+# used tuple instead of array - must use comma with tuple or will be converted to a string
 CORS_ORIGIN_WHITELIST = (
     'https://localhost:3000',
 )
